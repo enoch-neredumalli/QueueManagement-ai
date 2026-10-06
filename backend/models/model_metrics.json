@@ -1,0 +1,55 @@
+{
+  "model_type": "Random Forest Regressor",
+  "dataset_size": 6500,
+  "train_samples": 5200,
+  "test_samples": 1300,
+  "mae": 3.427,
+  "rmse": 6.115,
+  "r2_score": 0.9857,
+  "train_r2": 0.9943,
+  "train_mae": 1.854,
+  "mean_actual_wait": 53.37,
+  "feature_importances": [
+    {
+      "feature": "avg_service_time",
+      "importance": 0.5017
+    },
+    {
+      "feature": "active_counters",
+      "importance": 0.2763
+    },
+    {
+      "feature": "people_waiting",
+      "importance": 0.2098
+    },
+    {
+      "feature": "service_type_Loan Consultation",
+      "importance": 0.0043
+    },
+    {
+      "feature": "hour_of_day",
+      "importance": 0.0023
+    },
+    {
+      "feature": "service_type_Account Opening",
+      "importance": 0.0015
+    },
+    {
+      "feature": "service_type_Document Verification",
+      "importance": 0.0009
+    },
+    {
+      "feature": "is_holiday",
+      "importance": 0.0008
+    }
+  ],
+  "training_features": [
+    "service_type",
+    "people_waiting",
+    "active_counters",
+    "avg_service_time",
+    "hour_of_day",
+    "day_of_week",
+    "is_holiday"
+  ]
+}
